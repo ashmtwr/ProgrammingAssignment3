@@ -1,4 +1,4 @@
-setwd(dir="C:/Users/AMT0H04/Documents/AMT/Personal/Kaggle/03-Research/02-R/CourseEra/02-Programming R/Assignment/03/rprog-data-ProgAssignment3-data")
+setwd(dir="/rprog-data-ProgAssignment3-data")
 
 best <- function(state,outcome){
         data.out <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
